@@ -65,17 +65,24 @@ File Structure
 Technologies Used
 
 Node.js: JavaScript runtime for building the server.
+
 Express: Web framework for Node.js to handle HTTP requests.
+
 Socket.io: Library for real-time, bidirectional communication between clients and servers.
+
 HTML/CSS: For structuring and styling the user interface.
 
 Sending Messages: Users can send messages by typing into the input field and pressing Enter. Messages are broadcast to all connected users.
+
 Typing Indicator: When a user starts typing a message, a typing indicator will show up for other users.
+
 User Disconnect: When a user disconnects, all other users are notified that the user has left.
 
 
 Acknowledgements
 
 Socket.io - This is used to enable real-time web socket communication.
+
 Express - For building the server-side API.
+
 Feel free to contribute or make improvements. Enjoy chatting in real time! 😊

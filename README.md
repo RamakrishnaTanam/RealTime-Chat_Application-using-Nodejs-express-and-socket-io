@@ -37,14 +37,28 @@ http://localhost:8000
 
 
 File Structure
+
+
 ├── public/
-│   ├── index.html           # Main HTML file for the chat interface
+
+
+│   ├── index.html # Main HTML file for the chat interface
+
+
 │   ├── style.css            # Styling for the chat application
+
+
 │   └── client.js            # JavaScript file to handle client-side logic
+
+
 ├── nodeserver/
-│   ├── index.js             # Server-side logic to handle connections and messages
+
+│   ├── index.js   # Server-side logic to handle connections and messages
+
 │   └── node_modules/        # Node.js modules (automatically created after npm install)
+
 ├── package.json             # Contains project dependencies and scripts
+
 └── README.md                # This file
 
 

@@ -24,27 +24,19 @@ This is a real-time chat application built using **Node.js**, **Express**, and *
    git clone https://github.com/your-username/RealTime-Chat_Application-using-Nodejs-express-and-socket-io.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd RealTime-Chat_Application-using-Nodejs-express-and-socket-io
 Install the required dependencies:
 
-bash
-Copy code
 npm install
 Start the application:
 
-bash
-Copy code
 node index.js
 Open your browser and navigate to:
-
-arduino
-Copy code
 http://localhost:8000
+
+
 File Structure
-php
-Copy code
 ├── public/
 │   ├── index.html           # Main HTML file for the chat interface
 │   ├── style.css            # Styling for the chat application
@@ -57,23 +49,19 @@ Copy code
 
 
 Technologies Used
+
 Node.js: JavaScript runtime for building the server.
 Express: Web framework for Node.js to handle HTTP requests.
 Socket.io: Library for real-time, bidirectional communication between clients and servers.
 HTML/CSS: For structuring and styling the user interface.
 
-Usage
-User Join: When a user joins the chat, they will be prompted to enter their name. Their name will be displayed in the user list and a notification will be shown to all connected users.
-Sending Messages: Users can send messages by typing into the input field and pressing Enter. Messages are broadcasted to all connected users.
+Sending Messages: Users can send messages by typing into the input field and pressing Enter. Messages are broadcast to all connected users.
 Typing Indicator: When a user starts typing a message, a typing indicator will show up for other users.
-User Disconnect: When a user disconnects, a notification is sent to all other users that the user has left.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+User Disconnect: When a user disconnects, all other users are notified that the user has left.
 
-Acknowledgments
-Socket.io - For enabling real-time web socket communication.
+
+Acknowledgements
+
+Socket.io - This is used to enable real-time web socket communication.
 Express - For building the server-side API.
 Feel free to contribute or make improvements. Enjoy chatting in real time! 😊
-
-vbnet
-Copy code

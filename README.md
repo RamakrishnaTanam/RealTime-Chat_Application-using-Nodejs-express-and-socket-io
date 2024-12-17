@@ -22,11 +22,14 @@ This is a real-time chat application built using **Node.js**, **Express**, and *
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/RealTime-Chat_Application-using-Nodejs-express-and-socket-io.git
-Navigate to the project directory:
+
+   
+**Navigate to the project directory:**
 
 
-cd RealTime-Chat_Application-using-Nodejs-express-and-socket-io
-Install the required dependencies:
+**cd RealTime-Chat_Application-using-Nodejs-express-and-socket-io**
+
+**Install the required dependencies:**
 
 npm install
 Start the application:
@@ -62,7 +65,10 @@ File Structure
 └── README.md                # This file
 
 
-Technologies Used
+
+
+**Technologies Used**
+
 
 Node.js: JavaScript runtime for building the server.
 
@@ -72,6 +78,8 @@ Socket.io: Library for real-time, bidirectional communication between clients an
 
 HTML/CSS: For structuring and styling the user interface.
 
+
+
 Sending Messages: Users can send messages by typing into the input field and pressing Enter. Messages are broadcast to all connected users.
 
 Typing Indicator: When a user starts typing a message, a typing indicator will show up for other users.
@@ -79,7 +87,7 @@ Typing Indicator: When a user starts typing a message, a typing indicator will s
 User Disconnect: When a user disconnects, all other users are notified that the user has left.
 
 
-Acknowledgements
+**Acknowledgements**
 
 Socket.io - This is used to enable real-time web socket communication.
 

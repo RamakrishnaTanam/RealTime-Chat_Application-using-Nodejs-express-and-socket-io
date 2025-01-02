@@ -19,4 +19,12 @@ io.on('connection', socket => {
         console.log('User disconnected');
     });
 });
-
+// Start the server with error handling
+const PORT = process.env.PORT || 8000;
+http.listen(PORT, err => {
+    if (err) {
+        console.error(`Error starting server: ${err}`);
+    } else {
+        console.log(`Server is running on http://localhost:${PORT}`);
+    }
+});
